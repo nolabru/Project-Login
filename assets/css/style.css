@@ -3,8 +3,8 @@
 @font-face
 {
     font-family: 'tanseek';
-    src: url(/assets/fonts/Tanseek\ Modern\ Pro\ Arabic\ Book.otf) format('opentype');
-    src: url(/assets/fonts/Tanseek\ Modern\ Pro\ Arabic\ Book.ttf) format('truetype');
+    src: url(assets/fonts/Tanseek\ Modern\ Pro\ Arabic\ Book.otf) format('opentype');
+    src: url(assets/fonts/Tanseek\ Modern\ Pro\ Arabic\ Book.ttf) format('truetype');
 }
 
 :root
