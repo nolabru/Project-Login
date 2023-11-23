@@ -274,6 +274,13 @@ form button
     transition: all 1s;
 }
 
+.light form button
+{
+    color: var(--cor1);
+    background-color: var(--cor2);
+
+}
+
 form button:hover
 {
     box-shadow: 0px 0px 5px 0px var(--cor1);
