@@ -127,7 +127,7 @@ body
     height: 100vh;
     display: flex;
     justify-content: center;
-    background: url(/cat-astronaut-animate.svg);
+    background: url(svg/cat-astronaut-animate.svg);
     background-repeat: no-repeat;
     background-position: center;
     margin-left: 100px;
@@ -136,7 +136,7 @@ body
 
 .light #apr
 {
-    background: url(/cat-astronaut-animate-2.svg);
+    background: url(svg/cat-astronaut-animate-2.svg);
     background-repeat: no-repeat;
     background-position: center;
 }
