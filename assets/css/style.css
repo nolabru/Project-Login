@@ -27,8 +27,6 @@
     background: #000000dc;
 }
 
-
-
 .swal-modal
 {
     width: 300px;    
@@ -54,6 +52,11 @@ body
     align-items: center;
     margin: 15px;
     filter: invert();
+}
+
+.light #login
+{
+    filter: none;
 }
 
 #login img
