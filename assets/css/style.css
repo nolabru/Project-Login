@@ -22,12 +22,56 @@
     font-family: 'Cabin', sans-serif;
 }
 
+.swal-overlay
+{
+    background: #000000dc;
+}
+
+
+
+.swal-modal
+{
+    width: 300px;    
+    background: #ffffffd2;
+}
+
+.swal-button
+{
+    background: #000;
+}
+
+body
+{
+    position: relative;
+}
+
+#login
+{
+    display: flex;
+    position: absolute;
+    left: 0;
+    top: 0;
+    align-items: center;
+    margin: 15px;
+    filter: invert();
+}
+
+#login img
+{
+    width: 20px;
+}
+
+#name
+{
+    margin: 0px 5px;
+}
+
 .tema
 {
     position: absolute;
     top: 0;
     right: 0;
-    margin: 15px 20px;
+    margin: 15px;
 
 }
 
@@ -50,7 +94,7 @@
     height: 22px;
     width: 50px;
 
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 body.light .label
@@ -86,17 +130,12 @@ body.light .label .ball
 
 .fa-moon
 {
-    color: #0f0f10;
-}
-
-.fa-sun
-{
-    color: #0f0f10;
+    color: #fff;
 }
 
 body.light .fa-sun
 {
-    color: #fafafa;
+    color: #000;
 }
 
 /* -------------------------------------------------- */
@@ -258,9 +297,7 @@ form p
     transition: background .3s linear;
 }
 
-
-
-form button
+#enviar
 {
     height: 30px;
     margin-top: 30px;
@@ -272,16 +309,19 @@ form button
     cursor: pointer;
     color: #121213;
     transition: all 1s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.light form button
+.light #enviar
 {
     color: var(--cor1);
     background-color: var(--cor2);
 
 }
 
-form button:hover
+#enviar:hover
 {
     box-shadow: 0px 0px 5px 0px var(--cor1);
 }
@@ -345,7 +385,7 @@ form button:hover
     }
 
     #apr2
-    {
+    {   
         width: 100%;
     }
 
